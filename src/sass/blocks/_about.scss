@@ -1,0 +1,15 @@
+.about {
+    padding-top: 100px;
+    min-height: 100vh;
+    &__wrapper {
+        margin-left: 15%;
+        padding: 0 10px;
+    }
+    &__text {
+        margin-top: 50px;
+        color: #fff;
+        font-weight: 300;
+        font-size: 35px;
+        line-height: 40px;
+    }
+}

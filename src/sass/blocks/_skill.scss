@@ -1,0 +1,33 @@
+.skill {
+    
+    &__wrapper {
+        margin-left: 15%;
+        padding: 0 10px;
+    }
+    &__items {
+        margin-top: 60px;
+        padding: 0 10px;
+        display: grid;
+        grid-template: repeat(2,minmax(280px,auto))/repeat(3,280px);
+        grid-auto-rows: minmax(270px,auto);
+        gap: 44px;
+    }
+    &__item {
+        border: 1px solid $main-color;
+        padding: 30px 30px 25px 30px;
+        background: #a3b7c9;
+        &-img {
+            display: flex;
+            align-items: center;
+            min-height: 65px;
+            img {
+                height: 65px;
+                padding-right: 17px;
+            }
+        }
+    }
+    p {
+        color: #000;
+        font-size: 17px;
+    }
+}

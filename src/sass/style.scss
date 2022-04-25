@@ -8,9 +8,23 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+body {
+    background: linear-gradient(to top, rgba(80, 82, 126, 0.3), rgba(130, 237, 254, 0.3)), url('../img/pexels.jpg');
+    background-attachment: fixed;
+}
 .container {           
     max-width: 950px;
     margin: 0 auto;
 }
-@import 'blocks/promo';  
+ @import 'blocks/sidepanel';
+ @import 'blocks/about';
+ @import 'blocks/title';
+ @import 'blocks/divaider';
+ @import 'blocks/skill';
+ @import 'blocks/contact';
+ @import 'blocks/footer';
+ @import 'blocks/portfolio';
+ @import 'blocks/header';
+ @import 'blocks/hamburger';
+ @import 'blocks/media';
 
