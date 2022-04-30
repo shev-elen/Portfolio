@@ -5,9 +5,8 @@
     font-weight: 400;
     &__section-title {
         position: relative;
-        
         &:before {
-            content: '';
+            content: "";
             position: absolute;
             z-index: -1;
             top: 11px;

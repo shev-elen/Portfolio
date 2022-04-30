@@ -1,5 +1,4 @@
 .skill {
-    
     &__wrapper {
         margin-left: 15%;
         padding: 0 10px;
@@ -8,8 +7,8 @@
         margin-top: 60px;
         padding: 0 10px;
         display: grid;
-        grid-template: repeat(2,minmax(280px,auto))/repeat(3,280px);
-        grid-auto-rows: minmax(270px,auto);
+        grid-template: repeat(2, minmax(280px, auto)) / repeat(3, 280px);
+        grid-auto-rows: minmax(270px, auto);
         gap: 44px;
     }
     &__item {

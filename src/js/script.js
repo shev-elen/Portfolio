@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
     const headerMenu = document.querySelector('.header__menu'),
-    headerMenuItem = document.querySelectorAll('.header__menu-item'),
-    hamburger = document.querySelector('.hamburger');
+        headerMenuItem = document.querySelectorAll('.header__menu-item'),
+        hamburger = document.querySelector('.hamburger');
 
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('hamburger_active');
@@ -14,8 +14,12 @@ window.addEventListener('DOMContentLoaded', () => {
             headerMenu.classList.toggle('header__menu_active');
         });
     });
-           
+
+    new WOW().init();
 });
 
 
-              
+
+
+
+
